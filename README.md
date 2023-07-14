@@ -14,12 +14,14 @@ Usage
 
 API Endpoints
 GET /todos
+
     Description: Get all todos
     Response:
         Status code: 200 (OK)
         Body: Array of todos
 
 GET /todos/:id
+
     Description: Get a specific todo
     Parameters:
         id: ID of the todo
@@ -28,6 +30,7 @@ GET /todos/:id
         Body: Todo object
 
 POST /todos
+
     Description: Create a new todo
     Request Body: JSON object with the following properties:
         title: Title of the todo (string)
@@ -37,6 +40,7 @@ POST /todos
         Body: Created todo object
 
 PUT /todos/:id
+
     Description: Update an existing todo
     Parameters:
         id: ID of the todo
